@@ -1,0 +1,117 @@
+/* Urban Pulse Labs - Weather Widget Styling */
+
+.root {
+    -fx-background-color: #1A1A1D;
+    -fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.main-container {
+    -fx-padding: 25;
+}
+
+/* Header Styling */
+.header-container {
+    -fx-padding: 0 0 20 0;
+    -fx-alignment: CENTER;
+}
+
+.city-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+.search-field {
+    -fx-background-color: #2C2C2E;
+    -fx-text-fill: #FFFFFF;
+    -fx-prompt-text-fill: #8E8E93;
+    -fx-background-radius: 8;
+    -fx-padding: 8;
+}
+
+.refresh-button {
+    -fx-background-color: #00D1FF;
+    -fx-text-fill: #1A1A1D;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.refresh-button:disabled {
+    -fx-background-color: #4E4E50;
+    -fx-opacity: 0.5;
+}
+
+/* Center Content */
+.center-container {
+    -fx-alignment: CENTER;
+    -fx-spacing: 15;
+}
+
+.temp-large {
+    -fx-font-size: 72px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #00D1FF;
+}
+
+.condition-text {
+    -fx-font-size: 20px;
+    -fx-text-fill: #EBEBF5;
+    -fx-opacity: 0.8;
+}
+
+.city-shape {
+    -fx-fill: #00D1FF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 209, 255, 0.4), 10, 0, 0, 0);
+}
+
+/* Urban Pulse Specific Enhancements */
+.stats-container {
+    -fx-padding: 20 0 0 0;
+    -fx-spacing: 20;
+    -fx-alignment: CENTER;
+}
+
+.stat-box {
+    -fx-background-color: rgba(44, 44, 46, 0.6);
+    -fx-background-radius: 12;
+    -fx-padding: 10;
+    -fx-min-width: 120;
+    -fx-alignment: CENTER;
+}
+
+.stat-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #8E8E93;
+}
+
+.stat-value {
+    -fx-font-size: 16px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+/* Forecast Styling */
+.forecast-container {
+    -fx-padding: 20 0 0 0;
+    -fx-spacing: 15;
+    -fx-alignment: CENTER;
+}
+
+.forecast-card {
+    -fx-background-color: #2C2C2E;
+    -fx-background-radius: 15;
+    -fx-padding: 15;
+    -fx-min-width: 100;
+    -fx-alignment: CENTER;
+}
+
+.forecast-day {
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+.forecast-temp {
+    -fx-text-fill: #00D1FF;
+    -fx-font-size: 18px;
+}
